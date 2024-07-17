@@ -1,0 +1,288 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DandanSazi</title>
+    <link rel="stylesheet" href="./customsass/main.css" />
+    <link rel="stylesheet" href="./bootstrap-5.1.3/scss/bootstrap.css" />
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+      <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type='text/javascript'
+  src='http://code.jquery.com/jquery-2.0.2.js'></script>
+<link rel="stylesheet" type="text/css"
+  href="http://getbootstrap.com/dist/css/bootstrap.css">
+<script type='text/javascript'
+  src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css"
+  href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<script type='text/javascript'>//<![CDATA[ 
+$(window).load(function(){
+$(function() {
+    var navbarOffset = $(".navbar").height() + 10;
+    var shiftWindow = function() { scrollBy(0, -navbarOffset); };
+    window.addEventListener("hashchange", shiftWindow);
+    if (window.location.hash) shiftWindow();
+});
+$("a[href^='#']").on('click', function(e) {
+   e.preventDefault();
+   var hash = this.hash;
+   $('html, body').animate({
+       scrollTop: $(this.hash).offset().top - 60
+     }, 300, function(){
+         window.location.hash = hash;
+     });
+});
+});//]]>  
+</script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container flex-row-reverse p-0">
+          <div class="nav-img">
+            <img src="./images/Frame 7.png" alt="" />
+          </div>
+            <button
+              class="navbar-toggler" 
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+            >
+              <span class="navbar-toggler-icon btn-info"></span>
+            </button>
+            <div id="nav-ul" class="collapse navbar-collapse" id="navbarNav">
+              <ul  class="navbar-nav px-0">
+                <li class="nav-item pt-lg-40 pb-0 px--0 ">
+                  <a
+                  id="nav-a1"
+                    class="nav-link active text-secondary pt-0 "
+                    aria-current="page"
+                    href="#"
+                    >صفحه اصلی</a
+                  >
+                </li>
+                <li class=" nav-item pt-lg-40 pb-0 mx-lg-40 ">
+                  <a 
+                  id="nav-a2" class="nav-link text-secondary pt-0 " href="#khadamat"
+                    >خدمات</a
+                  >
+                </li>
+                <li class=" nav-item pt-lg-40 pb-0  ">
+                  <a 
+                 id="nav-a3" class="nav-link text-secondary pt-0 " href="#galery"
+                    >گالری تصاویر</a
+                  >
+                </li>
+                <li class=" nav-item pt-lg-40 pb-0 mx-lg-40 ">
+                  <a
+                    id="nav-a4"
+                    class="nav-link text-secondary pt-0 "
+                    href="#darbare"
+                    >درباره ما</a
+                  >
+                </li>
+                <li class="nav-item pt-lg-40 pb-0  ">
+                  <a
+                    id="nav-a5"
+                    class="nav-link text-secondary pt-0 "
+                    href="#"
+                    >تماس با ما</a
+                  >
+                </li>
+              </ul>
+            </div>
+          
+        </div>
+      </nav>
+    </header>
+    <!-- **************************************************************************************** -->
+    <section>
+      <div class="hero">
+        <img src="./images/Rectangle 4.png" alt="" />
+        <img src="./images/Rectangle 3.png" alt="" />
+        <div class="container container1">
+          <div class="hero-h1 row position-absolute">
+            <h1 class="text-white">دندانسازی احمد مکتب دار</h1>
+          </div>
+        </div>
+        <div class="container container2">
+          <div class="hero-img row">
+            <div class="col-3">
+              <p id="p-hero" class="text-color-text p-text position-absolute">
+                با 40 سال تجربه <br />در خدمت شما هستم تا<br />
+                لبخند را به شما هدیه کنم
+              </p>
+              <p id="p-hero2" class="p-text2 text-white position-absolute">
+                دندان های سفید و زیبا حق شماست
+              </p>
+              <img
+                id="img-hero"
+                class="img1"
+                src="./images/Vector1.png"
+                alt=""
+              />
+            </div>
+            <div class="col-9">
+              <img class="img2" src="./images/Vector.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *******************************************************************************************8 -->
+    <section  class="section2 bg-light">
+      <div class="container">
+        <div  class="page first-text text-center text-color-text pb-40">
+          <h1 id="khadamat">خدمات</h1>
+        </div>
+        <div class="row part1">
+          <div class="col-6 col-lg-3">
+            <div class="card align-items-center mb-20 mb-lg-0">
+              <img src="./images/Frame 13.png" class="card-img-top" alt="..." />
+              <div class="card-body p-0">
+                <h5 class="card-title text-color-text text-center">
+                  لابراتوار
+                </h5>
+                <p class="card-text text-center text-dark">
+                  پذیرش خدمات لابراتوار
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="card align-items-center mb-20 mb-lg-0">
+              <img src="./images/Frame 13.png" class="card-img-top" alt="..." />
+              <div class="card-body p-0">
+                <h5 class="card-title text-color-text text-center">
+                  مشاوره رایگان
+                </h5>
+                <p class="card-text text-center text-dark">با متد های روز</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="card align-items-center mb-20 mb-lg-0">
+              <img src="./images/Frame 13.png" class="card-img-top" alt="..." />
+              <div class="card-body p-0">
+                <h5 class="card-title text-color-text text-center">
+                  ساخت دندان
+                </h5>
+                <p class="card-text text-center text-dark">
+                  بهترین امکانات و تجهیزات
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="card align-items-center mb-20 mb-lg-0">
+              <img
+                src="./images/Frame 13(2).png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body p-0">
+                <h5 class="card-title text-color-text text-center">
+                  ویزیت رایگان
+                </h5>
+                <p class="card-text text-center text-dark">
+                  برای تمامی مراجعین
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row part2 bg-white">
+          <div class="col-lg-8 col-12 adress">
+            <div class="adress1 d-flex align-items-center">
+              <h4 class="text-color-text">آدرس</h4>
+              <div class="line1 bg-secondary mx-40"></div>
+              <p class="text-dark">خراسان رضوی. مشهد. حجاب 59 پلاک_7</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <h4 class="text-color-text">تماس با ما</h4>
+              <div class="line1 bg-secondary mx-40"></div>
+              <p class="text-dark">09153254158 - 05136229202</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-1 col-6 p-0 d-flex align-items-center justify-content-evenly flex-column"
+          >
+            <div><img src="./images/instagram.png" alt="" /></div>
+            <div><img src="./images/telegram.png" alt="" /></div>
+            <div class="icon d-flex align-items-center justify-content-center">
+              <img src="./images/Icon.png" alt="" />
+            </div>
+          </div>
+          <div class="naghshe col-lg-3 col-6 px-0">
+            <div>
+              <img src="./images/image 1.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="empty"></div>
+      </div>
+      
+    </section>
+    <!-- *********************************************************************************************8 -->
+    <section  class="bg-light section3">
+      <div  class="page text-color-text text-center text-h1">
+        <h1 id="galery">گالری تصاویر</h1>
+      </div>
+      <div class="sw pb-40">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/unsplash_4u2fG9mqGvQ.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/unsplash_4wrZr7RYyw8.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/unsplash_iGf7CfWgjTI.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/unsplash_4u2fG9mqGvQ.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/unsplash_4wrZr7RYyw8.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/unsplash_iGf7CfWgjTI.png" alt=""></div>            <div class="swiper-slide"><img src="./images/unsplash_4u2fG9mqGvQ.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/unsplash_4wrZr7RYyw8.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/unsplash_iGf7CfWgjTI.png" alt=""></div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <section class="section4 bg-dark">
+      <div  class="page container text-white pt-40">
+        <h5 id="darbare" >درباره ما</h5>
+        <div class="line2 bg-white my-10"></div>
+        <p>بنده احمد مکتب دار هستم، دندانساز تجربی دارای 40 سال سابقه، هدف من کیفیت کار و رضایت شماست.</p>
+        <p class="mt-10">برای راحتی شما عزیزان آدرس و شماره تلفن در گوگل مپ و راهنمای شماره تلفن (118) ثبت شده است.</p>
+      </div>
+     </section>
+
+
+    <script>
+       var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        centeredSlides: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+
+
+  <script src="./script/my.js"></script>
+</html>

@@ -1,0 +1,204 @@
+body {
+  direction: rtl; }
+  body .navbar {
+    direction: ltr;
+    padding: 0 !important; }
+    body .navbar .navbar-nav {
+      direction: rtl !important; }
+
+@font-face {
+  font-family: 'Shabnam';
+  src: url("../fonts/Shabnam FD/Shabnam FD.eot") format("eot");
+  src: url("../fonts/Shabnam FD/Shabnam FD.ttf") format("ttf");
+  src: url("../fonts/Shabnam FD/Shabnam FD.woff") format("woff"); }
+@media screen and (max-width: 768px) {
+  #p-hero2 {
+    width: 210px; } }
+@media screen and (max-width: 550px) {
+  #p-hero2 {
+    width: 180px; } }
+@media screen and (max-width: 550px) {
+  #p-hero {
+    width: 170px; } }
+@media screen and (max-width: 992px) {
+  #nav-ul {
+    display: flex;
+    justify-content: center; } }
+@media screen and (max-width: 992px) {
+  .nav-link {
+    padding-bottom: 20px !important; } }
+@media screen and (min-width: 992px) {
+  .nav-item {
+    height: 100px; } }
+@media screen and (max-width: 768px) {
+  #img-hero {
+    margin-top: 370px !important; } }
+nav .container {
+  padding: 0; }
+nav .nav-item {
+  padding: 0 12px; }
+  nav .nav-item .nav-link {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Shabnam";
+    padding-bottom: 33px; }
+nav .nav-img {
+  padding: 28px 0; }
+
+.hero {
+  position: relative;
+  height: 668px; }
+  .hero img {
+    position: absolute;
+    height: 668px;
+    width: 65%; }
+  .hero .container1 .hero-h1 {
+    margin-top: 64px; }
+    .hero .container1 .hero-h1 h1 {
+      font-family: "Shabnam";
+      font-weight: 700;
+      font-size: 48px;
+      padding-right: 0; }
+  .hero .container2 {
+    padding-top: 202px; }
+    .hero .container2 .hero-img .p-text {
+      font-family: "Shabnam";
+      font-weight: 400;
+      font-size: 24px;
+      width: 269px;
+      margin-top: 78.5px;
+      margin-bottom: 0; }
+    .hero .container2 .hero-img .p-text2 {
+      margin-top: 288px;
+      font-family: "Shabnam";
+      font-weight: 700;
+      font-size: 20px;
+      margin-bottom: 0;
+      padding-right: 0; }
+    .hero .container2 .hero-img .img1 {
+      height: 70.08px;
+      width: 49.79px;
+      margin-top: 339px; }
+    .hero .container2 .hero-img .img2 {
+      height: 466px; }
+
+.section2 .container {
+  padding-left: 0;
+  padding-right: 0; }
+  .section2 .container .first-text {
+    padding-top: 66px; }
+    .section2 .container .first-text h1 {
+      font-family: "Shabnam";
+      font-weight: 700;
+      font-size: 36px; }
+  .section2 .container .part1 .card {
+    padding: 24px 0;
+    box-shadow: inset 0px 0px 30px rgba(77, 165, 246, 0.1);
+    border-radius: 40px; }
+    .section2 .container .part1 .card img {
+      width: 72px;
+      height: 72px; }
+    .section2 .container .part1 .card .card-body h5 {
+      font-family: "Shabnam";
+      font-weight: 400;
+      font-size: 24px;
+      margin: 10 0; }
+    .section2 .container .part1 .card .card-body p {
+      font-family: "Shabnam";
+      font-weight: 400;
+      font-size: 16px; }
+  .section2 .container .part2 {
+    margin-top: 104px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(77, 165, 246, 0.1);
+    border-radius: 40px;
+    margin-right: 0;
+    width: 100%; }
+    .section2 .container .part2 .adress {
+      padding: 64px 64px 0 64px; }
+      .section2 .container .part2 .adress .adress1 {
+        margin-bottom: 54px; }
+      .section2 .container .part2 .adress h4 {
+        font-family: "Shabnam";
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 0; }
+      .section2 .container .part2 .adress p {
+        font-family: "Shabnam";
+        font-weight: 400;
+        font-size: 24px;
+        margin-bottom: 0; }
+      .section2 .container .part2 .adress .line1 {
+        width: 80px;
+        height: 1px; }
+    .section2 .container .part2 .icon {
+      width: 36px;
+      height: 36px;
+      background: #36AA59;
+      border-radius: 50px; }
+    .section2 .container .part2 .naghshe div {
+      margin: 24px 0 24px 24px; }
+      .section2 .container .part2 .naghshe div img {
+        width: 100%;
+        height: 200px; }
+  .section2 .container .empty {
+    height: 10px;
+    width: 100%; }
+
+.section3 .text-h1 {
+  padding-top: 120px;
+  padding-bottom: 48px; }
+  .section3 .text-h1 h1 {
+    font-family: "Shabnam";
+    font-weight: 700;
+    font-size: 36px; }
+.section3 .sw {
+  position: relative;
+  width: 100%;
+  height: 30%; }
+.section3 .swiper {
+  width: 90%;
+  height: 100%; }
+.section3 .swiper-slide {
+  width: 240px !important;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+  .section3 .swiper-slide img {
+    width: 100%;
+    height: 240px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(.jpg);
+    box-shadow: 0px 4px 8px rgba(51, 51, 51, 0.05);
+    border-radius: 30px; }
+.section3 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.section4 .container {
+  padding-bottom: 110px; }
+  .section4 .container h5 {
+    font-family: "Shabnam";
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0; }
+  .section4 .container p {
+    font-family: "Shabnam";
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0; }
+  .section4 .container .line2 {
+    width: 100%;
+    height: 2px; }
+
+/*# sourceMappingURL=main.css.map */

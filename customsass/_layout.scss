@@ -1,0 +1,40 @@
+@media screen and (max-width:768px){
+    #p-hero2{
+        width: 210px;
+    }
+}
+@media screen and (max-width:550px){
+    #p-hero2{
+        width: 180px;
+    }
+}
+@media screen and (max-width:550px){
+    #p-hero{
+        width: 170px;
+    }
+}
+
+@media screen and (max-width:992px){
+    #nav-ul{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:992px){
+    .nav-link{
+       padding-bottom: 20px !important;
+    }
+}
+
+@media screen and (min-width:992px){
+    .nav-item{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #img-hero{
+       margin-top: 370px !important;
+    }
+}

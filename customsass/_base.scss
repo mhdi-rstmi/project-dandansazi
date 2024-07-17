@@ -1,0 +1,20 @@
+body{
+    direction: rtl;
+    .navbar{
+        .navbar-nav{
+            direction: rtl !important;
+        }
+        direction: ltr;
+       
+        padding: 0 !important;
+    }
+}
+
+$font-total:"Shabnam";
+
+@font-face {
+    font-family: 'Shabnam';
+    src: url('../fonts/Shabnam FD/Shabnam FD.eot') format('eot');
+    src: url('../fonts/Shabnam FD/Shabnam FD.ttf') format('ttf');
+    src: url('../fonts/Shabnam FD/Shabnam FD.woff') format('woff');
+}

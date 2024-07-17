@@ -1,0 +1,254 @@
+nav{
+    .container{
+        padding: 0;
+
+    }
+    .nav-item{
+        padding: 0 12px;
+
+        .nav-link{
+            font-size: 18px;
+            font-weight: 700;
+            font-family: $font-total;
+            padding-bottom: 33px;
+        }
+    }
+    .nav-img{
+        padding: 28px 0;
+        
+    }
+     
+}
+
+.hero{
+    position: relative;
+    height: 668px;
+  img{
+    position: absolute;
+    height: 668px;
+    width: 65%;
+  }
+   
+  .container1{
+    .hero-h1{
+        margin-top: 64px;
+        h1{
+            font-family: $font-total;
+            font-weight: 700;
+            font-size: 48px;
+            padding-right: 0;
+        }
+    }
+  }
+
+  .container2{
+    padding-top: 202px;
+  
+    .hero-img{
+        
+           .p-text{
+            font-family: $font-total;
+            font-weight: 400;
+            font-size: 24px;
+            width: 269px;
+            margin-top: 78.5px;
+            margin-bottom: 0;
+           }
+           .p-text2{
+            margin-top: 288px;
+            font-family: $font-total;
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 0;
+            padding-right: 0;
+           }
+           .img1{
+             height: 70.08px;
+             width: 49.79px;
+             margin-top: 339px;
+           }
+
+            .img2{
+                height: 466px;
+            }
+        
+    }
+  }
+}
+
+.section2{
+    // height: 768px;
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+
+    .first-text{
+        padding-top: 66px;
+        h1{
+            font-family: $font-total;
+            font-weight: 700;
+            font-size: 36px;
+        }
+    }
+.part1{
+    // padding-bottom: 104px;
+    .card{
+        padding: 24px 0;
+        box-shadow: inset 0px 0px 30px rgba(77, 165, 246, 0.1);
+        border-radius: 40px;
+        img{
+            width: 72px;
+            height: 72px;
+        }
+        .card-body{
+            h5{
+                font-family: $font-total;
+                font-weight: 400;
+                font-size: 24px; 
+                margin: 10 0;
+            }
+            p{
+                font-family: $font-total;
+                font-weight: 400;
+                font-size: 16px; 
+            }
+        }
+       
+      
+    }
+}
+
+.part2{
+      margin-top: 104px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(77, 165, 246, 0.1);
+      border-radius: 40px;
+      margin-right: 0;
+      width: 100%;
+
+   .adress{
+    padding: 64px 64px 0 64px;
+    .adress1{
+        margin-bottom: 54px;
+    }
+    h4{
+        font-family: $font-total;
+        font-weight: 700;
+        font-size: 24px; 
+        margin-bottom: 0;
+    }
+    p{
+        font-family: $font-total;
+        font-weight: 400;
+        font-size: 24px; 
+        margin-bottom: 0;
+    }
+      .line1{
+        width: 80px;
+        height: 1px;
+      }
+   }
+
+      .icon{
+        width: 36px;
+        height: 36px;
+        background: #36AA59;
+        border-radius: 50px;
+        
+      }
+      .naghshe{
+        // width: 200px;
+        div{
+            margin: 24px 0 24px 24px;
+            img{
+                width: 100%;
+                height: 200px;
+            }
+        }
+      }
+}
+.empty{
+    height: 10px;
+    width: 100%;
+}
+}
+ 
+}
+
+.section3{
+   .text-h1{
+    padding-top: 120px;
+    padding-bottom: 48px;
+    h1{
+        font-family: $font-total;
+        font-weight: 700;
+        font-size: 36px; 
+    }
+   }
+   .sw {
+    position: relative;
+    width: 100%;
+        height: 30%;
+  }
+
+
+  .swiper {
+    width: 90%;
+        height: 100%;
+  }
+
+  .swiper-slide {
+    width: 240px !important;
+     img{
+        width: 100%;
+        height: 240px;
+        
+         background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(.jpg);
+          box-shadow: 0px 4px 8px rgba(51, 51, 51, 0.05);
+           border-radius: 30px;
+     }
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.section4{
+    .container{
+        padding-bottom:110px;
+        h5{
+            font-family: $font-total;
+            font-weight: 400;
+            font-size: 24px; 
+            margin: 0;
+        }
+        p{
+            font-family: $font-total;
+            font-weight: 400;
+            font-size: 18px; 
+            margin: 0;
+        }
+        .line2{
+            width: 100%;
+            height: 2px;
+        }
+    }
+    
+}
